@@ -193,7 +193,81 @@ app.get("/recommend", (req, res) => {
 
 // tour 영역에 출력할 자료 요청
 app.get("/tour", (req, res) => {
-  const result = {};
+  const result = {
+    total: 9,
+    tour_1: {
+      image: "images/t1.jpg",
+      event: "국적기직항",
+      building: "패밀리 투룸 로프트(21평)",
+      area: "어반스테이 여수 웅천",
+      price: "63900",
+      url: "b.html",
+    },
+    tour_2: {
+      image: "images/t1.jpg",
+      event: "국적기직항",
+      building: "패밀리 투룸 로프트(21평)",
+      area: "어반스테이 여수 웅천",
+      price: "63900",
+      url: "b.html",
+    },
+    tour_3: {
+      image: "images/t1.jpg",
+      event: "국적기직항",
+      building: "패밀리 투룸 로프트(21평)",
+      area: "어반스테이 여수 웅천",
+      price: "63900",
+      url: "b.html",
+    },
+    tour_4: {
+      image: "images/t1.jpg",
+      event: "국적기직항",
+      building: "패밀리 투룸 로프트(21평)",
+      area: "어반스테이 여수 웅천",
+      price: "63900",
+      url: "b.html",
+    },
+    tour_5: {
+      image: "images/t1.jpg",
+      event: "국적기직항",
+      building: "패밀리 투룸 로프트(21평)",
+      area: "어반스테이 여수 웅천",
+      price: "63900",
+      url: "b.html",
+    },
+    tour_6: {
+      image: "images/t1.jpg",
+      event: "국적기직항",
+      building: "패밀리 투룸 로프트(21평)",
+      area: "어반스테이 여수 웅천",
+      price: "63900",
+      url: "b.html",
+    },
+    tour_7: {
+      image: "images/t1.jpg",
+      event: "국적기직항",
+      building: "패밀리 투룸 로프트(21평)",
+      area: "어반스테이 여수 웅천",
+      price: "63900",
+      url: "b.html",
+    },
+    tour_8: {
+      image: "images/t1.jpg",
+      event: "국적기직항",
+      building: "패밀리 투룸 로프트(21평)",
+      area: "어반스테이 여수 웅천",
+      price: "63900",
+      url: "b.html",
+    },
+    tour_9: {
+      image: "images/t1.jpg",
+      event: "국적기직항",
+      building: "패밀리 투룸 로프트(21평)",
+      area: "어반스테이 여수 웅천",
+      price: "63900",
+      url: "b.html",
+    },
+  };
   res.send(result);
 });
 
